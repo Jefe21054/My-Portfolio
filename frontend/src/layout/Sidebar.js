@@ -63,7 +63,7 @@ const Sidebar = ({ open, onClose }) => {
                   flexGrow={1}
                   marginLeft="10px"
                 >
-                  Bob Developer
+                  Ivan Iglesias
                 </Typography>
               </IconButton>
             </Link>

@@ -49,7 +49,7 @@ const Technologies = () => {
               data-aos="fade-up"
               gutterBottom
             >
-              Technologies
+              My Toolbox
             </Typography>
             <Typography
               variant="h4"
@@ -59,7 +59,7 @@ const Technologies = () => {
               marginTop={4}
               marginBottom={6}
             >
-              Technologies I use to build web applications
+              Technologies I use to build awsome projects.
             </Typography>
           </Box>
           <Grid container spacing={2}>

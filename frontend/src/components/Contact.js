@@ -58,7 +58,7 @@ const Contact = () => {
               data-aos="fade-up"
               gutterBottom
             >
-              Get in touch
+              Let's keep in touch
             </Typography>
             <Typography
               variant="h6"
@@ -68,7 +68,7 @@ const Contact = () => {
               marginTop={4}
               marginBottom={6}
             >
-              Do you need a full-stack web developer? I would love to hear from you.
+              Do you need my skills at your company? I would love to hear from you!
             </Typography>
           </Box>
           {contact.slice(0, 1).map((item, i) => (
@@ -107,7 +107,7 @@ const Contact = () => {
                         width={50}
                         height={50}
                         backgroundColor={theme.palette.primary.main}
-                        color={theme.palette.common.white}
+                        color={theme.palette.background.default}
                       >
                         <PhoneIcon fontSize="small" />
                       </Box>
@@ -135,7 +135,7 @@ const Contact = () => {
                         width={50}
                         height={50}
                         backgroundColor={theme.palette.primary.main}
-                        color={theme.palette.common.white}
+                        color={theme.palette.background.default}
                       >
                         <EmailIcon fontSize="small" />
                       </Box>
@@ -162,7 +162,7 @@ const Contact = () => {
                         width={50}
                         height={50}
                         backgroundColor={theme.palette.primary.main}
-                        color={theme.palette.common.white}
+                        color={theme.palette.background.default}
                       >
                         <LocationIcon fontSize="small" />
                       </Box>

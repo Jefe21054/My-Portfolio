@@ -1,5 +1,5 @@
 const typography = {
-  fontFamily: "'Montserrat', sans-serif",
+  fontFamily: "'Open Sans', sans-serif",
   fontSize: 13,
   fontWeightLight: 300,
   fontWeightRegular: 400,

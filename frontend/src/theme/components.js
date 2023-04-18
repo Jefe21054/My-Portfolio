@@ -8,7 +8,7 @@ const components = {
         paddingBottom: 10,
       },
       containedSecondary: {
-        color: '#fff',
+        color: '#cfcfcf',
       },
     },
   },

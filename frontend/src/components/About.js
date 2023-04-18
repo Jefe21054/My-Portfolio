@@ -48,7 +48,7 @@ const About = () => {
               data-aos="fade-up"
               gutterBottom
             >
-              About
+              About Me
             </Typography>
             <Typography
               variant="h5"
@@ -58,7 +58,7 @@ const About = () => {
               marginTop={4}
               marginBottom={6}
             >
-              I am a freelance web developer who builds elegant, fast, and scalable web applications
+              I'm a freelance Data Engineer, Network Administrator and Web Developer
             </Typography>
           </Box>
           <Grid container spacing={4}>
@@ -98,7 +98,7 @@ const About = () => {
                         height={50}
                         marginBottom={2}
                         backgroundColor={theme.palette.primary.main}
-                        color={theme.palette.common.white}
+                        color={theme.palette.background.default}
                       >
                         <Icon>
                           {item.icon}

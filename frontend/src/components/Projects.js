@@ -50,7 +50,7 @@ const Projects = () => {
             data-aos="fade-up"
             gutterBottom
           >
-            Projects
+            My Projects
           </Typography>
           <Typography
             variant="h5"
@@ -60,7 +60,7 @@ const Projects = () => {
             marginTop={4}
             marginBottom={6}
           >
-            View some of my latest projects
+            Some of my latest projects!
           </Typography>
         </Box>
         <Grid container spacing={4}>

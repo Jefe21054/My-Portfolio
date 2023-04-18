@@ -16,9 +16,9 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 
 // Font Awesome Icons
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
+import { faServer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-library.add(faLaptopCode);
+library.add(faServer);
 
 import CustomButton from "../components/CustomButton";
 
@@ -54,7 +54,7 @@ const Header = ({ onSidebarOpen }) => {
           <Link href="/" style={{ textDecoration: "none" }}>
             <IconButton size="large" disabled>
               <FontAwesomeIcon 
-                icon={faLaptopCode} 
+                icon={faServer} 
                 style={{ 
                   color: theme.palette.primary.main,
                   height: 45, 
@@ -73,7 +73,7 @@ const Header = ({ onSidebarOpen }) => {
                   display: { md: "inline", xs: "none" }
                 }}
               >
-                Bob Developer
+                Ivan Iglesias
               </Typography>
             </IconButton>
           </Link>

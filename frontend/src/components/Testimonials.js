@@ -13,9 +13,9 @@ import { useTheme } from "@mui/material/styles";
 
 // Font Awesome Icons
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
+import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-library.add(faCommentDots);
+library.add(faBriefcase);
 
 const Testimonials = () => {
   const theme = useTheme();
@@ -56,7 +56,7 @@ const Testimonials = () => {
               data-aos="fade-up"
               gutterBottom
             >
-              Testimonials
+              Education & Experience
             </Typography>
             <Typography
               variant="h4"
@@ -66,7 +66,7 @@ const Testimonials = () => {
               marginTop={4}
               marginBottom={6}
             >
-              Check what clients have said about my work
+              Check which I studied and what I did at my previous jobs.
             </Typography>
           </Box>
           <Grid container spacing={4}>
@@ -102,7 +102,7 @@ const Testimonials = () => {
                     >
                       <Box marginBottom={2}>
                         <FontAwesomeIcon 
-                          icon={faCommentDots} 
+                          icon={faBriefcase} 
                           style={{ 
                             color: theme.palette.primary.main,
                             height: 45, 
