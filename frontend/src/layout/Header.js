@@ -9,10 +9,10 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import { useTheme } from "@mui/material/styles";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import MenuIcon from "@mui/icons-material/Menu";
-import YouTubeIcon from "@mui/icons-material/YouTube";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Font Awesome Icons
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -119,18 +119,18 @@ const Header = ({ onSidebarOpen }) => {
           />
           <Box sx={{ display: { lg: "flex", md: "none", xs: "none" } }}>
             <IconButton 
-              aria-label="YouTube" 
-              href="#"
+              aria-label="GitHub" 
+              href="https://github.com/Jefe21054"
               target="_blank"
               sx={{ 
                 color: theme.palette.primary.main,
               }}
             >
-              <YouTubeIcon fontSize="large" />
+              <GitHubIcon fontSize="large" />
             </IconButton>
             <IconButton 
               aria-label="LinkedIn" 
-              href="#"
+              href="https://www.linkedin.com/in/ivan-iglesias-6192351ba/"
               target="_blank"
               sx={{ 
                 color: theme.palette.primary.main,
@@ -139,14 +139,14 @@ const Header = ({ onSidebarOpen }) => {
               <LinkedInIcon fontSize="large" />
             </IconButton>
             <IconButton 
-              aria-label="Instagram" 
-              href="#"
+              aria-label="Mastodon" 
+              href="https://fosstodon.org/@jefe21054"
               target="_blank"
               sx={{ 
                 color: theme.palette.primary.main,
               }}
             >
-              <InstagramIcon fontSize="large" />
+              <TwitterIcon fontSize="large" />
             </IconButton>
           </Box>
         </Toolbar>

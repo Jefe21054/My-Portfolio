@@ -61,7 +61,7 @@ const HeroButtons = () => {
               border: "2px solid " + theme.palette.primary.main,
               "&:hover": {
                 backgroundColor: theme.palette.primary.main,
-                color: theme.palette.common.white,
+                color: theme.palette.background.default,
                 border: "2px solid " + theme.palette.primary.main
               }
             }}
