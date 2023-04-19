@@ -102,7 +102,7 @@ const Header = ({ onSidebarOpen }) => {
             />
             <CustomButton
               href="#testimonials"
-              text="Testimonials"
+              text="Experience"
             />
             <CustomButton 
               href="#contact"
